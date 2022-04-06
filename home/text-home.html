@@ -8,6 +8,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="Portfolio">
         <meta name="author" content="Myrthe Rijk">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.2/gsap.min.js"></script>
     </head>
 
     <body>
@@ -25,45 +26,37 @@
             <image>
                 <img class="logo" src="../images/logo2.png" alt="logo">
             </image>
+        </header>
+        <main>
             <div class="img-container">
             <!-- Animated background from Marco Guglielmelli from codepen.io/MarcoGugliemelli/pen/ExGYae -->
-                <image>
-                    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.2/gsap.min.js"></script>
+
                     <div id="large-header" class="large-header">
                         <canvas id="demo-canvas"></canvas>
                         <h1 class="main-title">Myrthe <span class="thin">Rijk</span></h1>
                     </div>
-                </image>
+
                 <script type="text/javascript" src="script-home.js"></script>
             </div>
-        </header>
-        <main>
-            <div class="container">
-                <div class="about col">
-                    <h2>"Choose a job you love, and you will never have to work a day in your life."</h2>
-                    <h3>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. 
-                        Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
-                        Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. 
-                        Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, 
-                        venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus.</h3>
-                </div>
-                <div class="col">
-                    <img class="img-about" src="../images/intro-image.jpg" alt="image about me">
-                </div>
-            </div>
-            <div class="container">
-                <div class="about col">
-                    <h2>"Choose a job you love, and you will never have to work a day in your life."</h2>
-                    <h3>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. 
-                        Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
-                        Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. 
-                        Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, 
-                        venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus.</h3>
-                </div>
-                <div class="col">
-                    <img class="img-about" src="../images/intro-image.jpg" alt="image about me">
-                </div>
-            </div>
+            <div class="container-about">
+                <div class="row-about">
+                    <div class="text-about">
+                        <h2>"Choose a job you love, and you will never have to work a day in your life."</h2>
+                        <h3>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. 
+                            Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
+                            Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. 
+                            Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, 
+                            venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus.</h3>
+                    </div> <!-- End text-about -->
+                    <div class="img-about">
+                        <img class="img-one" src="../images/intro-image.jpg" alt="image about me">
+                    </div>
+                </div> <!-- End row-about -->
+            </div> <!-- End container-about -->
+
+
+
+            
         </main>
         <footer></footer>
     </body>

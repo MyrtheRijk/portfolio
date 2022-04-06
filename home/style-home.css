@@ -1,16 +1,17 @@
 html {
     font-family: 'Calibri', 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
-    background-color: rgb(242, 245, 39);
+    background-color: rgb(255, 255, 255);
 }
 
 /* header */
+
 header {
-    height: 1000px;
+    height: 0;
 }
 
 /* main */
 main {
-    height: 1000px;
+    height: auto;
 }
 
 /* body */
@@ -79,7 +80,38 @@ li a:active {
 }
 
 /* main */
-.about {
+
+.container-about {
+    border: solid green;
+    display: flex;
+}
+
+.row-about {
+    border: solid rgb(243, 133, 237);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.text-about {
+    border: solid yellow;
+    float: left;
+    margin: 60px;
+}
+
+.img-about {
+    border: solid red;
+    overflow: hidden;
+    max-width: 700px;
+    max-height: 500px;
+    float: right;
+    margin: 60px;
+}
+
+
+
+
+/* .about {
     z-index: 4;
     color: white;
     margin: 120px 60px 160px 20px;
@@ -110,19 +142,11 @@ li a:active {
     margin: -238px 0px;
 }
 
-.col {
+.one {
     display: flex;
     flex-direction: column;
     justify-content: center;
     width: 650px;
-}
-/* grid */
-/* #grid-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr / 2fr 2fr;
-    border: 2px blue solid;
-    width: 400px;
-    height: 500px;
 } */
 
 /* Animated background from Marco Guglielmelli from codepen.io/MarcoGugliemelli/pen/ExGYae */
@@ -130,7 +154,6 @@ li a:active {
 .large-header {
 	position: relative;
 	width: 100%;
-    height: 100%;
 	background: #333;
 	overflow: hidden;
 	background-size: cover;
@@ -140,10 +163,6 @@ li a:active {
 
 #large-header {
 	background-image: url('https://www.marcoguglie.it/Codepen/AnimatedHeaderBg/demo-1/img/demo-1-bg.jpg');
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
 }
 
 .main-title {
@@ -156,14 +175,19 @@ li a:active {
 	left: 50%;
 	-webkit-transform: translate3d(-50%,-50%,0);
 	transform: translate3d(-50%,-50%,0);
-    font-size: 70px;
+    font-size: 45px;
     font-weight: lighter;
 }
 
-.img-container {
-    display: block;
+.demo-1 .main-title {
+	text-transform: uppercase;
+	font-size: 4.2em;
+	letter-spacing: 0.1em;
 }
 
+
+	
+	
 
 @media only screen and (max-width : 768px) {
 	.demo-1 .main-title {
