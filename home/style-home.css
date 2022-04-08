@@ -1,153 +1,32 @@
-html {
-    font-family: 'Calibri', 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
-    background-color: rgb(255, 255, 255);
-}
-
-/* header */
-
 header {
     height: 0;
 }
 
-/* main */
-main {
-    height: auto;
-}
-
-/* body */
-body {
-    width: 100%;
-    margin: 0px;
-    padding: 0px;
-    border: 0px;
-}
-
-/* header-navigation */
-.nav-container {
+.navbar {
     z-index: 2;
-    display: inline;
-    overflow: hidden;
-    position: fixed;
-    top: 0; 
-    width: 100%; 
+	display: flex;
 }
 
-.nav-bar-left {
-    float: left; 
+.nav-link {
+	float: right;
 }
 
-.nav-bar-right {
-    float: right;
+.brand {
+	width: 80px;
+	height: 80px;
 }
 
-ul {
-    list-style-type: none;
-    margin: 15px 50px;
-    padding: 0px;
-    overflow: hidden;
-    letter-spacing: 0,5px;
+.nav-item {
+	padding: 0px 0px;
+	min-width: 100px;
 }
 
-
-li a {
-    display: inline;
-    padding: 75px 25px 60px 25px;
-    margin: 0px;
-    color: white;
-    text-decoration: none;
-    font-size: 25px;
+.navbar .navbar-nav > li > a:hover {
+	font-weight: bold;
 }
-
-li a:hover {
+.navbar .navbar-nav > li > a:active {
+	font-weight: normal;
 }
-
-li a:focus-within {
-
-}
-
-li a:active {
-    color: rgb(60, 255, 0);
-}
-
-/* logo */
-.logo {
-    position: fixed;
-    z-index: 3;
-    width: 150px;
-    height: 150px;
-    margin: 40px;
-    padding: 0px 0px 0px 25px;
-}
-
-/* main */
-
-.container-about {
-    border: solid green;
-    display: flex;
-}
-
-.row-about {
-    border: solid rgb(243, 133, 237);
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.text-about {
-    border: solid yellow;
-    float: left;
-    margin: 60px;
-}
-
-.img-about {
-    border: solid red;
-    overflow: hidden;
-    max-width: 700px;
-    max-height: 500px;
-    float: right;
-    margin: 60px;
-}
-
-
-
-
-/* .about {
-    z-index: 4;
-    color: white;
-    margin: 120px 60px 160px 20px;
-    width: 45%;
-}
-.about h2 {
-    font-size: 60px;
-}
-
-.about h3 {
-    font-size: 26px;
-    text-align: justify;
-    letter-spacing: -1px;
-}
-
-.img-about {
-    position: relative;
-    max-width: 700px;
-    max-height: 500px;
-    border-color:rgb(60, 255, 0);
-}
-
-.container {
-    background-color: black;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: -238px 0px;
-}
-
-.one {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 650px;
-} */
 
 /* Animated background from Marco Guglielmelli from codepen.io/MarcoGugliemelli/pen/ExGYae */
 /* Header */
@@ -185,9 +64,6 @@ li a:active {
 	letter-spacing: 0.1em;
 }
 
-
-	
-	
 
 @media only screen and (max-width : 768px) {
 	.demo-1 .main-title {
