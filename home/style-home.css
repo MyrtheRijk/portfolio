@@ -1,6 +1,26 @@
+html, body {
+    margin: 0;
+  }
+
 header {
     height: 0;
 }
+
+main {
+	background-color: black;
+}
+
+.card {
+	background-color: black;
+}
+
+.border {
+	border: solid white;
+	padding: 5em !important;
+	border-radius: 25px;
+}
+
+
 
 .navbar {
     z-index: 2;
@@ -26,6 +46,42 @@ header {
 }
 .navbar .navbar-nav > li > a:active {
 	font-weight: normal;
+}
+
+@media only screen and (min-width : 768px) {
+	.my-5 {
+		margin: -20px !important;
+	}
+}
+
+@media only screen and (min-width : 992px) {
+	.set-lower {
+		margin: 100px !important;
+	}
+}
+
+@media only screen and (min-width : 1200px) {
+	.set-lower {
+		margin: 150px !important;
+	}
+}
+
+@media only screen and (min-width : 1400px) {
+	.set-lower {
+		margin: 200px !important;
+	}
+}
+
+@media only screen and (min-width : 1600px) {
+	.set-lower {
+		margin: 250px !important;
+	}
+}
+
+@media only screen and (min-width : 1800px) {
+	.set-lower {
+		padding: 300px !important;
+	}
 }
 
 /* Animated background from Marco Guglielmelli from codepen.io/MarcoGugliemelli/pen/ExGYae */
@@ -70,3 +126,11 @@ header {
 		font-size: 3em;
 	}
 }
+
+/* List technologies I've learned */
+.list {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap; 
+}
+

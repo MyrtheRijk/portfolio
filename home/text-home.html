@@ -2,14 +2,16 @@
 <html>
     <head>
         <title>Portfolio</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.2.1/dist/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+        <link rel="stylesheet" href="aos/dist/aos.css">
         <link rel="stylesheet" href="style-home.css" type="text/css" />
         <link rel="script" href="script-home.js" type="text/javascript"/>
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.2.1/dist/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
         <meta name="description" content="Portfolio">
         <meta name="author" content="Myrthe Rijk">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.2/gsap.min.js"></script>
+        <script src="aos/dist/aos.js"></script>
     </head>
 
     <body>
@@ -21,9 +23,9 @@
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse justify-content-end font-weight-light my-5" id="navbarNav">
+                <div class="collapse navbar-collapse justify-content-end font-weight-light my-5 " id="navbarNav">
                   <ul class="navbar-nav float-right">
-                    <li class="nav-item mx-auto">
+                    <li class="nav-item mx-3">
                       <a class="nav-link text-white" href="#">Home</a> 
                     </li>
                     <li class="nav-item mx-auto">
@@ -48,21 +50,79 @@
                     </div>
                 <script type="text/javascript" src="script-home.js"></script>
             </div>
-            <div class="container-about">
-                <div class="row-about">
-                    <div class="text-about">
-                        <h2>"Choose a job you love, and you will never have to work a day in your life."</h2>
-                        <h3>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. 
-                            Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
-                            Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. 
-                            Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, 
-                            venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus.</h3>
-                    </div> <!-- End text-about -->
-                    <div class="img-about">
-                        <img class="img-one" src="../images/intro-image.jpg" alt="image about me">
+
+            <div class="col">
+              <div data-aos="fade-right">
+                <div class="row justify-content-center my-5 set-lower text-white">
+                  <div class="card col-sm-10 col-md-8 col-lg-6">
+                    <img class="card-img-top" src="../images/intro-image.jpg">
+                  </div>
+                  <div class="card col-sm-10 col-md-8 col-lg-6">
+                    <div class="card-body">
+                      <h5 class="card-title">Hi, I'm Myrthe. Nice to meet you.</h5>
+                      <p class="card-text">I study programming since june 2021. Why? Because I love to code! It's really amazing 
+                        to see what I can do to create a fully functioning website. Something that will amaze people.  <br><br>
+                        That's the reason why I've made the desicion to quit my job and do something I love. I study fulltime at 
+                        Codecademy to become a Fullstack-Engineer. The plan is to finish the course in june/august 2022. Want to know more about my study? Please visit 
+                        <a href="https://www.codecademy.com/learn/paths/full-stack-engineer-career-path" target="_blank">Codecademy</a> to learn more. 
+                      <br><br> To see my full career path, please visit my <a href="https://www.linkedin.com/in/myrther/" target="_blank">LinkedIn</a> page.</p>
                     </div>
-                </div> <!-- End row-about -->
-            </div> <!-- End container-about -->
+                  </div>
+                </div>
+              </div>  
+              
+              <div>
+                <div class="row justify-content-center my-5 set-lower text-white">
+                  <div class="card col-sm-10 col-md-8 col-lg-6 order-1 order-md-12 my-xs-5" data-aos="zoom-out-left">
+                    <img class="card-img-top" src="../images/intro-image.jpg" alt="Card image cap">
+                  </div>
+                  <div class="card col-sm-10 col-md-8 col-lg-6 order-12 order-lg-1" data-aos="zoom-out-right">
+                    <div class="card-body">
+                      <h5 class="card-title">My recent projects</h5>
+                      <p class="card-text">There are several projects I've made with guidelines from Codecademy. 
+                        It made me think about the steps I had to follow trough to reach my goal and how to write clean code. 
+                        Want to see what I have made so far? Please visit my <a href="https://github.com/MyrtheRijk?tab=repositories" target="_blank">Github</a> page.<br><br>
+                      I have already learned HTML, CSS, Javascript and React, but there is much more I'm going to learn! See all the technologies here:</p>
+                      <div class="list">
+                        <ul>
+                          <li>HTML</li>
+                          <li>CSS</li>
+                          <li>Javascript</li>
+                          <li>Bootstrap</li>
+                        </ul>
+                        <ul>
+                          <li>React</li>
+                          <li>Redux</li>
+                          <li>Git</li>
+                          <li>Node.js</li>
+                        </ul>
+                        <ul>
+                          <li>Express.js</li>
+                          <li>SQL</li>
+                          <li>PostgreSQL</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div class="row justify-content-center my-5 set-lower text-white">
+                  <div class="card col-sm-10 col-md-8 col-lg-6" data-aos="fade-left">
+                    <img class="card-img-top" src="../images/intro-image.jpg" alt="Card image cap">
+                  </div>
+                  <div class="card col-sm-10 col-md-8 col-lg-6" data-aos="fade-left">
+                    <div class="card-body">
+                      <h5 class="card-title">Let's get to know each other.</h5>
+                      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                      <a href="#" class="btn btn-primary stretched-link">View Profile</a>
+                    </div>
+                  </div>
+                </div> 
+              </div>
+            </div>
+          
+  
         </main>
         <footer></footer>
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
