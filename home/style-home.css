@@ -1,5 +1,6 @@
 html,body	{
     overflow-x: hidden; 
+	scroll-behavior: smooth;
 }
 
 body {
@@ -63,6 +64,17 @@ ul {
 		border-radius: 80px;
 	}
 } */
+
+.message {
+	background-color: #db6930;
+	border-radius: 80px;
+	padding: 20px 100px;
+	margin: 0px !important;
+}
+
+.container-butt-form {
+	float: center;
+}
 
 @media only screen and (min-width : 900px) {
 	.set-lower {
