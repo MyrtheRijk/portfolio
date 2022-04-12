@@ -1,30 +1,24 @@
-html, body {
-    margin: 0;
-  }
-
-header {
-    height: 0;
+html,body	{
+    overflow-x: hidden; 
 }
 
-main {
-	background-color: black;
+body {
+	background-color: rgb(3, 1, 27);
+	display: block;
+}
+
+.navbar {
+    background: rgba(48, 48, 48, 0.4);
+	z-index: 2;
+	display: flex;
 }
 
 .card {
-	background-color: black;
+	background-color: rgb(3, 1, 27);
 }
 
-.border {
-	border: solid white;
-	padding: 5em !important;
-	border-radius: 25px;
-}
-
-
-
-.navbar {
-    z-index: 2;
-	display: flex;
+ul {
+	padding-right: 15px;
 }
 
 .nav-link {
@@ -32,8 +26,8 @@ main {
 }
 
 .brand {
-	width: 80px;
-	height: 80px;
+	width: 60px;
+	height: 60px;
 }
 
 .nav-item {
@@ -48,41 +42,89 @@ main {
 	font-weight: normal;
 }
 
-@media only screen and (min-width : 768px) {
+.picture {
+	border-radius: 60px;
+	margin: auto;
+}
+
+.card-text {
+	text-align: justify;
+}
+
+.navbar-brand {
+	padding-top: 0px !important;
+}
+
+/* @media only screen and (min-width : 768px) {
 	.my-5 {
-		margin: -20px !important;
+		margin: 100px 50px 50px 50px !important;
+		border: solid white;
+		padding: 50px;
+		border-radius: 80px;
 	}
-}
+} */
 
-@media only screen and (min-width : 992px) {
+@media only screen and (min-width : 900px) {
 	.set-lower {
-		margin: 100px !important;
+		margin: 35px !important;
+		border: solid white;
+		padding: 50px;
+		border-radius: 80px;
 	}
 }
 
-@media only screen and (min-width : 1200px) {
+@media only screen and (min-width : 1100px) {
+	.set-lower {
+		margin: 75px !important;
+		border: solid white;
+		padding: 50px;
+		border-radius: 80px;
+	}
+}
+
+
+@media only screen and (min-width : 1300px) {
 	.set-lower {
 		margin: 150px !important;
+		border: solid white;
+		padding: 50px;
+		border-radius: 80px;
 	}
 }
 
-@media only screen and (min-width : 1400px) {
+@media only screen and (min-width : 1500px) {
 	.set-lower {
 		margin: 200px !important;
+		border: solid white;
+		padding: 50px;
+		border-radius: 80px;
 	}
 }
 
-@media only screen and (min-width : 1600px) {
+@media only screen and (min-width : 1700px) {
 	.set-lower {
-		margin: 250px !important;
+		margin: 250px 250px !important;
+		border: solid white;
+		padding: 50px;
+		border-radius: 80px;
 	}
 }
 
-@media only screen and (min-width : 1800px) {
+@media only screen and (min-width : 2000px) {
 	.set-lower {
-		padding: 300px !important;
+		margin: 275px 350px !important;
+		border: solid white;
+		padding: 50px;
+		border-radius: 80px;
 	}
+} 
+
+.list {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap; 
 }
+
 
 /* Animated background from Marco Guglielmelli from codepen.io/MarcoGugliemelli/pen/ExGYae */
 /* Header */
@@ -127,10 +169,5 @@ main {
 	}
 }
 
-/* List technologies I've learned */
-.list {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap; 
-}
+
 
