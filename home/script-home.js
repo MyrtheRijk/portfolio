@@ -156,7 +156,7 @@
             ctx.beginPath();
             ctx.moveTo(p.x, p.y);
             ctx.lineTo(p.closest[i].x, p.closest[i].y);
-            ctx.strokeStyle = 'rgba(156,217,249,'+ p.active+')';
+            ctx.strokeStyle = 'rgb(54, 2, 2,'+ p.active+')';
             ctx.stroke();
         }
     }
@@ -175,7 +175,7 @@
             if(!_this.active) return;
             ctx.beginPath();
             ctx.arc(_this.pos.x, _this.pos.y, _this.radius, 0, 2 * Math.PI, false);
-            ctx.fillStyle = 'rgba(156,217,249,'+ _this.active+')';
+            ctx.fillStyle = 'rgba(255,130,0,'+ _this.active+')';
             ctx.fill();
         };
     }
@@ -187,6 +187,3 @@
     
 })();
 
-AOS.init({
-    duration: 900
-  })

@@ -9,7 +9,7 @@ body {
 }
 
 .navbar {
-    background: rgba(48, 48, 48, 0.4);
+    background: rgba(255, 111, 0, 0.3);
 	z-index: 2;
 	display: flex;
 }
@@ -20,10 +20,20 @@ body {
 
 ul {
 	padding-right: 15px;
+	color: #db6930;
+}
+
+a {
+	color: #db6930;
+}
+
+a:hover {
+	color: #db6930;
 }
 
 .nav-link {
 	float: right;
+	color: #db6930;
 }
 
 .brand {
@@ -52,29 +62,42 @@ ul {
 	text-align: justify;
 }
 
+.card-title {
+	color: #db6930;
+	font-weight: bold;
+}
+
 .navbar-brand {
 	padding-top: 0px !important;
 }
-
-/* @media only screen and (min-width : 768px) {
-	.my-5 {
-		margin: 100px 50px 50px 50px !important;
-		border: solid white;
-		padding: 50px;
-		border-radius: 80px;
-	}
-} */
 
 .message {
 	background-color: #db6930;
 	border-radius: 80px;
 	padding: 20px 100px;
 	margin: 0px !important;
+	color: white;
+	font-weight: bold;
+}
+
+.message:hover {
+	text-decoration: underline;
 }
 
 .container-butt-form {
 	float: center;
 }
+
+.title-contact {
+	text-align: center;
+	color: #db6930;
+}
+
+#about, #portfolio{
+	padding-top: 1px;
+}
+
+
 
 @media only screen and (min-width : 900px) {
 	.set-lower {
@@ -151,21 +174,23 @@ ul {
 }
 
 #large-header {
-	background-image: url('https://www.marcoguglie.it/Codepen/AnimatedHeaderBg/demo-1/img/demo-1-bg.jpg');
+	background-image: url(../images/bos3.jpg);
 }
 
 .main-title {
 	position: absolute;
 	margin: 0;
 	padding: 0;
-	color: #f9f1e9;
+	color: #360202;
 	text-align: center;
-	top: 50%;
+	top: 25%;
 	left: 50%;
 	-webkit-transform: translate3d(-50%,-50%,0);
 	transform: translate3d(-50%,-50%,0);
-    font-size: 45px;
+    font-size: 80px;
     font-weight: lighter;
+	letter-spacing: 8px;
+	text-shadow: 2px 2px 5px #db6930;
 }
 
 .demo-1 .main-title {
@@ -180,6 +205,4 @@ ul {
 		font-size: 3em;
 	}
 }
-
-
 

@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Myrthe Rijk</title>
+    <link rel="icon" type="image/x-icon" href="../images/logo-blue.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="aos/dist/aos.css">
+    <link rel="stylesheet" href="style-home.css" type="text/css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="script" href="script-home.js" type="text/javascript"/><meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta name="description" content="Portfolio">
+    <meta name="author" content="Myrthe Rijk">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.2/gsap.min.js"></script>
+    <script src="aos/dist/aos.js"></script>
+    <script src="https://kit.fontawesome.com/54e20c1d15.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+  </head>
+  <body data-spy="scroll" data-target=".navbar">
+    <header>
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top">
+        <div class="brand">
+          <a class="navbar-brand" href="#"><img class="brand mx-3" src="../images/logo-white.png" alt="logo"></a>
+        </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end font-weight-light" id="navbarNav">
+          <ul class="navbar-nav float-right" data-spy="affix-bottom">
+            <li class="nav-item mx-auto">
+              <a class="nav-link text-white" href="#about">About Me</a>
+            </li>
+            <li class="nav-item mx-auto">
+              <a class="nav-link text-white" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item mx-auto">
+              <a class="nav-link text-white" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <div class="img-container">
+      <!-- Animated background from Marco Guglielmelli from codepen.io/MarcoGugliemelli/pen/ExGYae -->
+        <div id="large-header" class="large-header">
+          <canvas id="demo-canvas"></canvas>
+          <div>
+          <h1 class="main-title">Myrthe Rijk</h1>
+        </div>
+        <script type="text/javascript" src="script-home.js"></script>
+      </div>
+      <div class="col" id="about">
+        <!-- data-aos="zoom-out-down" -->
+        <div class="row justify-content-center my-5 set-lower text-white">
+          <div class="card col-sm-10 col-md-8 col-lg-6 picture">
+            <img class="card-img-top picture" src="../images/myrthe-andries.jpg">
+          </div>
+          <div class="card col-sm-10 col-md-8 col-lg-6">
+            <div class="card-body">
+              <h5 class="card-title">Hi, I'm Myrthe, nice to meet you.</h5>
+              <p class="card-text">I study programming since June 2021. Why? Because I love to code! It's really amazing 
+              to see what I can do to create a fully functioning website. A website that will amaze people.  <br><br>
+              That's the reason why I've made the decision to quit my job and do something I love. I study fulltime at 
+              Codecademy to become a Fullstack-Engineer. The plan is to finish the course in June/August 2022. Want to know more about my study? Please visit 
+              <a href="https://www.codecademy.com/learn/paths/full-stack-engineer-career-path" target="_blank">Codecademy</a> to learn more. 
+              <br><br> To see my full career path please visit my <a href="https://www.linkedin.com/in/myrther/" target="_blank">LinkedIn</a> page.</p>
+            </div>
+          </div>
+        </div>
+      </div> 
+      <div id="portfolio">
+        <div class="row justify-content-center my-5 set-lower text-white" >
+          <!-- data-aos="zoom-out-down" -->
+          <div class="card col-sm-10 col-md-8 col-lg-6 order-1 order-md-12 my-xs-5">
+            <img class="card-img-top picture" src="../images/myrthe-laptop.jpg" alt="Card image cap">
+          </div>
+          <div class="card col-sm-10 col-md-8 col-lg-6 order-12 order-lg-1">
+            <div class="card-body">
+              <h5 class="card-title">My recent projects</h5>
+              <p class="card-text">There are several projects I've made with guidelines from Codecademy. 
+              It made me think about the steps I had to follow trough to reach my goals and how to write clean code. 
+              Want to see what I have made so far? Please visit my <a href="https://github.com/MyrtheRijk?tab=repositories" target="_blank">Github</a> page.<br><br>
+              I have already learned HTML, CSS, Javascript and React, but there is much more I'm going to learn! See all the technologies here:</p>
+              <div class="list">
+                <ul>
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>Javascript</li>
+                  <li>Bootstrap</li>
+                </ul>
+                <ul>
+                  <li>React</li>
+                  <li>Redux</li>
+                  <li>Git</li>
+                  <li>Node.js</li>
+                </ul>
+                <ul>
+                  <li>Express.js</li>
+                  <li>SQL</li>
+                  <li>PostgreSQL</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-center my-5 set-lower text-white" id="contact">
+        <!-- data-aos="zoom-out-down" -->
+        <div class="card col-sm-10 col-md-8 col-lg-6">
+          <div class="card-body">
+            <h5 class="card-title title-contact">Let's get to know each other</h5>
+            <p class="card-text">Interested in working together? Or do you have a few questions you want to ask me? 
+              Fill out the form via the button below. I would be happy to answer your questions as soon as possible. </p>
+          </div>
+          <div class="text-center container-butt-form">
+            <a href="" class="btn btn-default btn-rounded mb-4 message" data-toggle="modal" data-target="#modalContactForm">Click here to send a message</a>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer> <!-- form modal contact from mdbootstrap.com/docs/b4/jquery/modals/forms/ -->
+      <div class="modal fade" id="modalContactForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header text-center">
+              <h4 class="modal-title w-100 font-weight-bold">Write to us</h4>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body mx-3">
+              <form action="contact.php" method="post" id="contactform" name="contactform">
+                <div class="md-form mb-5">
+                  <i class="fas fa-user prefix grey-text"></i>
+                  <input type="text" id="form34" name="name" class="form-control validate">
+                  <label data-error="wrong" data-success="right" for="form34">Name</label>
+                </div>
+                <div class="md-form mb-5">
+                  <i class="fas fa-envelope prefix grey-text"></i>
+                  <input type="email" id="form29" name="email" class="form-control validate">
+                  <label data-error="wrong" data-success="right" for="form29">E-mail</label>
+                </div>
+                <div class="md-form mb-5">
+                  <i class="fas fa-tag prefix grey-text"></i>
+                  <input type="text" id="form32" name="company" class="form-control validate">
+                  <label data-error="wrong" data-success="right" for="form32">Company</label>
+                </div>
+                <div class="md-form">
+                  <i class="fas fa-pencil prefix grey-text"></i>
+                  <textarea type="text" id="form8" name="body" class="md-textarea form-control" rows="4"></textarea>
+                  <label data-error="wrong" data-success="right" for="form8">Message</label>
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer d-flex justify-content-center">
+              <div id="contactresponse"> 
+                <button class="btn btn-unique bg-dark text-white" form="contactform">Send <i class="fas fa-paper-plane-o ml-1"></i></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+
+  <!-- Footer format from mdbootstrap.com/docs/standard/navigation/footer/examples-and-customization/ -->
+  <footer class="text-center text-lg-start" style="background-color: #db6930;">
+    <div class="container d-flex justify-content-center py-5">
+      <button type="button" class="btn btn-primary btn-lg btn-floating mx-2" style="background-color: hsl(234, 89%, 11%, 1.0);">
+        <a href="https://www.linkedin.com/in/myrther/" class="fa-brands fa-linkedin-in text-white" target="_blank"></a>
+      </button>
+      <button type="button" class="btn btn-primary btn-lg btn-floating mx-2" style="background-color: hsl(234, 89%, 11%, 1.0);">
+        <a href="https://github.com/MyrtheRijk" class="fa-brands fa-github text-white" target="_blank"></a>
+      </button>
+      <button type="button" class="btn btn-primary btn-lg btn-floating mx-2" style="background-color: hsl(234, 89%, 11%, 1.0);">
+        <i class="fa-solid fa-envelope"></i>
+      </button>
+      <button type="button" class="btn btn-primary btn-lg btn-floating mx-2" style="background-color: hsl(234, 89%, 11%, 1.0);">
+        <a href="https://www.codecademy.com/learn/paths/full-stack-engineer-career-path" target="_blank">
+          <img src="../images/codecademy.png" alt="link codecademy">
+        </a>
+      </button>
+    </div>
+    <!-- Copyright -->
+    <div class="text-center text-white p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      Handcrafted by Myrthe Rijk © 2022
+    </div>
+    <!-- Copyright -->
+  </footer>
+</html>
