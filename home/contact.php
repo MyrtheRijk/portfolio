@@ -62,7 +62,7 @@ $mail->IsSMTP();
 $mail->SMTPAutoTLS = false;
 $mail->SMTPAuth = true;                  
 $mail->Username='contact@myrtherijk.nl';
-$mail->Password = "4PDK%T5Wr4Skz8u";
+$mail->Password = "";
 $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
 $mail->SMTPOptions = [
     'ssl' => [
